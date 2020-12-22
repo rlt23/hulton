@@ -1,0 +1,16 @@
+<html>
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+<?php include ('Templates/header.php'); ?>
+	<section class="container grey-text">
+		<h4 class="center">Hotel</h4>
+		<form class="white" action="login_validate.php" method="POST">
+		<label> Enter Credit card number</label>
+		<input type="text" name="Creditcardno" required>
+		</form>
+	</section>
+	<?php include ('Templates/footer.php'); ?>
+</body>
+</html>
